@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dv418ih2gwvev"]
+
+[node name="main" type="Node"]
+
+[node name="StartPosition" type="Marker2D" parent="."]
+
+[node name="StartTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true

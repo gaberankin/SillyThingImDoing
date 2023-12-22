@@ -173,3 +173,5 @@ frame_progress = 0.428795
 position = Vector2(-3.5, 4.5)
 shape = SubResource("RectangleShape2D_vmgsh")
 debug_color = Color(0.239216, 0.52549, 0.917647, 0.419608)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
